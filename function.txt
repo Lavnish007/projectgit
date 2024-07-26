@@ -1,0 +1,31 @@
+
+
+functions
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Functions Example</title>
+<script>
+var globalVariable = "I am a global variable.";
+function functionWithLocalVariable() 
+{
+var localVariable = "I am a local variable.";
+alert(localVariable);
+}
+function functionThatUsesGlobalVariable() {
+alert(globalVariable);
+}
+</script>
+</head>
+<body>
+<h1>Functions Example</h1>
+<p>
+<button onclick="functionWithLocalVariable()" style="background-color:greenyellow;">Function with
+Local Variable</button>
+</p>
+<p>
+<button onclick="functionThatUsesGlobalVariable()" style="background-color:paleturquoise;">Function that Uses Global Variable</button>
+</p>
+</body>
+</html>
